@@ -1,0 +1,18 @@
+.style-guide {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.definition {
+  display: flex;
+  align-items: center;
+  border: 3px dashed white;
+  border-radius: 5px;
+  padding: 1em;
+  margin-top: 2em;
+}
+
+.definition__text {
+  color: #fff;
+  margin-left: 2em;
+}
