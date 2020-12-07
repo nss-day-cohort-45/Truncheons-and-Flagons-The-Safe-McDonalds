@@ -1,0 +1,27 @@
+.isHidden {
+  display: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.parchment {
+  background-image: url('/images/parchment.webp');
+  color: #000;
+  font-weight: bold;
+  padding: 0.5em;
+  border-radius: 4px;
+}

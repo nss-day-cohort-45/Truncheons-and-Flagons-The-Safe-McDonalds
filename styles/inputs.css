@@ -1,0 +1,44 @@
+.btn {
+  border: 2px solid white;
+  border-radius: 4px;
+  color: #000;
+  display: inline-block;
+  padding: 3px 8px 8px;
+  font-family: var(--heading-font);
+  background-color: var(--light-gray);
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bold;
+  transition: .15s ease-in-out;
+}
+
+.btn:hover {
+  background-color: var(--medium-gray);
+  color: #fff;
+}
+
+.btn:active {
+  background-color: transparent;
+}
+
+select {
+  border-radius: 4px;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control label {
+  color: #fff;
+  margin-left: 0.5em;
+  text-align: left;
+}
+
+.form-control input {
+  border-radius: 4px;
+  outline-style: none;
+  border: none;
+  padding: 0 0.5em;
+}

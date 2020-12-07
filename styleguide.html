@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/styleguide.css" />
+  </head>
+  <body>
+    <main class="container">
+        <article class="style-guide text-center">
+            <h1>H1 Truncheons and Flagons</h1>
+            <h2>H2 Truncheons and Flagons</h2>
+            <h3>H3 Truncheons and Flagons</h3>
+            <h4>H4 Truncheons and Flagons</h4>
+            <div class="definition definition--button">
+                <div class="btn">Start Game</div>
+                <div class="definition__text"><span class="bold">Buttons:</span> Use div - class="btn". By default, font-family is same as headings. Style with BEM modifiers as needed.</div>
+            </div>
+            <div class="definition definition--select">
+                <select name="styleDefinition" id="styleDefinition">
+                    <option value="0">Select a team for Team 1...</option>
+                    <option value="1">Green Goblins</option>
+                    <option value="2">Silver Snakes</option>
+                    <option value="3">Freaky Ferrets</option>
+                </select>
+                <div class="definition__text text-left"><span class="bold">Select: </span>By default, select element inherits font styling from its parent. Use an option element with value of zero for the default option</div>
+            </div>
+            <div class="definition definition--text-input">
+                <div class="form-control">
+                    <label for="textInputDefinition">Text Input</label>
+                    <input type="text" name="textInputDefinition" id="textInputDefinition" placeholder="Enter some text...">
+                </div>
+                <div class="definition__text text-left"><span class="bold">Text input: </span>By default, input elements inherit font styling from their parent. Be sure to use a placeholder attribute and/or a label for clarity. If using a label, wrap input and label in a div with class="form-control", which has a default display property of "flex" and flex-direction of "column".</div>
+            </div>
+            <div class="definition definition--date-input">
+                <div class="form-control">
+                    <label for="textInputDefinition">Date Input</label>
+                    <input type="date" name="dateInputDefinition" id="dateInputDefinition">
+                </div>
+                <div class="definition__text text-left"><span class="bold">Date input: </span>By default, input elements inherit font styling from their parent. Be sure to use a label for clarity. Wrap input and label in a div with class="form-control", which has a default display property of "flex" and flex-direction of "column".</div>
+            </div>
+            <div class="definition definition--parchment">
+              <div class="parchment text-left">
+                Parchment background: Add class="parchment" to any div to add a parchment background and turn the text inside black and bold. Also adds 0.5em of padding all around and a border-radius of 4px.
+              </div>
+          </div>
+        </article>
+        <article id="componentContainer"></article>
+    </main>
+    <script type="module" src="./scripts/main.js"></script>
+  </body>
+</html>
