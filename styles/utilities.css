@@ -18,6 +18,14 @@
   text-align: right;
 }
 
+.text-white {
+  color: white;
+}
+
+.text-black {
+  color: black;
+}
+
 .parchment {
   background-image: url('/images/parchment.webp');
   color: #000;

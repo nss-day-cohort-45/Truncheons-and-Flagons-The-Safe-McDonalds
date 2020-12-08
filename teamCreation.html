@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team Creation Component</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <main class="container" style="padding-top: 5em">
+      <article class="team-creation text-center">
+        <section class="team-creation__teamForm">
+          <h3>Create Your Teams</h3>
+          <div class="form-control">
+            <label for="teamNameCreation"
+              >Enter Team Names</label
+            >
+            <input
+              type="text"
+              name="teamNameCreation"
+              id="teamNameCreation"
+              placeholder="Unique team name"
+            />
+          </div>
+          <div class="btn" id="addTeam">Add Team</div>
+        </section>
+        <section class="team-creation__addPlayersForm">
+          <h3>Add Players</h3>
+          <p>Enter player names and assign them to a team.</p>
+          <p>No more than three players per team.</p>
+          <div class="addPlayersInputs">
+            <div class="form-control">
+              <label for="playerNameInput">Player Name</label>
+              <input type="text" name="playerNameInput" id="playerNameInput" />
+            </div>
+            <div class="form-control">
+              <label for="playerTeamSelect">Select Team</label>
+              <select name="playerTeamSelect" id="playerTeamSelect">
+                <option value="0">Assign player to team...</option>
+                <option value="1">Green Goblins</option>
+                <option value="2">Silver Snakes</option>
+                <option value="3">Freaky Ferrets</option>
+              </select>
+            </div>
+          </div>
+          <div class="btn" id="addPlayerToTeam">Add Player</div>
+        </section>
+      </article>
+      <article style="margin-top: 5em">
+        DELETE ME LATER
+        <a href="./index.html" style="color: white">GO BACK TO INDEX.HTML</a>
+      </article>
+    </main>
+    <script type="module" src="./scripts/main.js"></script>
+  </body>
+</html>
