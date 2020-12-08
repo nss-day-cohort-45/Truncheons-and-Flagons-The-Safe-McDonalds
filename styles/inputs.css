@@ -42,3 +42,12 @@ select {
   border: none;
   padding: 0 0.5em;
 }
+
+.team-lists__container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.team-lists__container .form-control select {
+  min-width: 14em;
+}
