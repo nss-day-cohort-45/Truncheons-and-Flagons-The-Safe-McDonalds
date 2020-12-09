@@ -1,0 +1,32 @@
+.scoring__table{
+  background-image:url(../images/banner.png);
+  background-position: center;
+  width: 640px;
+
+}
+
+.team__header{
+  text-align: center;
+}
+
+td  {
+  margin:auto;
+  text-align: center;
+  padding:1px;
+}
+
+.team__header{
+  border-right: solid black;
+  margin:auto;
+  text-align: center;
+  padding:1px;
+}
+.team__header--name{
+  text-align: left;
+}
+
+table{
+   margin-left: 125px;
+ 
+}
+
