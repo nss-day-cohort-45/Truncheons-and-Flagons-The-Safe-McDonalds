@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Team Scoring</title>
+        <link rel="stylesheet" href="./styles/main.css">
+        <link rel="stylesheet" href="./styles/teamScoring.css">
+    </head>
+<body>
+    <header class="gameScoringArea">
+        <div class="containerLeft">
+            <div class="currentScore">
+                <table>
+                    <tr>
+                      <th class ="team__header">TEAMS</th>
+                      <th class ="team__header">ROUND 1</th>
+                      <th class ="team__header">ROUND 2</th>
+                      <th class ="team__header">ROUND 3</th>
+                      <th class ="team__header">TOTAL SCORE</th>
+                    </tr>
+                    <tr>
+                     <th class ="team__header--name">Freaky Ferrets</th>
+                     <td class="points__scored">  1</td>
+                     <td class="points__scored">  2</td>
+                     <td class="points__scored">  3</td>
+                     <td class="points__scored">5</td>
+                   </tr> 
+                    <tr>
+                     <th class ="team__header--name">Silver Snakes</th>
+                     <td class="points__scored">  1</td>
+                     <td class="points__scored">  2</td>
+                     <td class="points__scored">  3</td>
+                     <td class="points__scored">5</td>
+                   </tr> 
+                    <tr>
+                     <th class ="team__header--name">Green Goblins</th>
+                     <td class="points__scored">  1</td>
+                     <td class="points__scored">  2</td>
+                     <td class="points__scored">  3</td>
+                     <td class="points__scored">5</td>
+                   </tr> 
+                    
+                   </table>
+            </div>
+        </div>
+        <div class="containerRight">
+            <div class="overallScore">
+                <table>
+                    <tr>
+                        <th class="overallScore__header">Team Name</th>
+                        <th class="overallScore__header">Overall Points</th>
+                    </tr>
+                    <tr>
+                        <th class="overallScore--name">Freaky Ferrets</th>
+                        <td class="overallScore__total">0</td>
+                    </tr>
+                    <tr>
+                        <th class="overallScore--name">Silver Snakes</th>
+                        <td class="overallScore__total">0</td>
+                    </tr>
+                    <tr>
+                        <th class="overallScore--name">Green Goblins</th>
+                        <td class="overallScore__total">0</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </header>
+    <main class="container">       
+        <div class="gameComponent"></div>
+            <div class="roundCount"><h3 class="roundHeader">Round: 1</h3></div>
+            
+            <div class="roundScoring">
+                    <table class="scoringTable center">
+                        <tr>
+                        <th>Team Name</th>
+                        <th>Class</th>
+                        <th>Remove Points</th>
+                        <th>Total Score</th>
+                        <th>Add Points</th>
+                        </tr>
+                        <tr class="teamRow">
+                            <td>Team 1</td>
+                            <td>Knights</td>
+                            <td><img class="center" src="./images/minus.png" width="25" height="10" alt="subract 1 point"></td>
+                            <td>0</td>
+                            <td><img class="center" src="./images/plus.png" width="25" height="25" alt="add 1 point"></td>
+                        </tr>
+                        <tr class="teamRow">
+                            <td>Team 2</td>
+                            <td>Goblins</td>
+                            <td><img class="center" src="./images/minus.png" width="25" height="10" alt="subract 1 point"></td>
+                            <td>0</td>
+                            <td><img class="center" src="./images/plus.png" width="25" height="25" alt="add 1 point"></td>
+                        </tr>
+                        <tr class="teamRow">
+                            <td>Team 3</td>
+                            <td>Fairies</td>
+                            <td><img class="center" src="./images/minus.png" width="25" height="10" alt="subract 1 point"></td>
+                            <td>0</td>
+                            <td><img class="center" src="./images/plus.png" width="25" height="25" alt="add 1 point"></td>
+                        </tr>
+                    </table>
+            </div>
+        </div>
+
+        <div class="saveRoundScore">
+            <button class="btn" id="saveRoundScore">Save Scores</button>
+        </div>
+
+        <div class="scoringLegend">
+            <button class="btn viewLegend">View Rules</button>
+        </div>
+
+    </main>
+    
+</body>
+</html>
