@@ -1,0 +1,62 @@
+{
+  "teams": [
+    {
+      "teamName": "Green Goblins",
+      "id": 1,
+      "teamId": 1,
+      "totalScore": 80
+    },
+    {
+      "teamName": "Silver Snakes",
+      "id": 2,
+      "teamId": 2,
+      "totalScore": 90      
+    }
+  ],
+  "players": [
+    {
+      "id": 1,
+      "teamId": 1,
+      "firstName": "Norman",
+      "lastName": "Osborne",
+      "country": "USofA"
+    },
+    {
+      "id": 2,
+      "teamId": 2,
+      "firstName": "Olmec",
+      "lastName": "Stonehead",
+      "country": "Peru"
+    }
+  ],
+  "teamScores": [
+    {
+      "gameNumber": 1,
+      "date": "2020-12-10",
+      "teams": [
+        {
+          "teamId": 1,
+          "score": 50
+        },
+        {
+          "teamId": 2,
+          "score": 40          
+        }
+      ]
+    },
+    {
+      "gameNumber": 2,
+      "date": "2020-12-11",
+      "teams": [
+        {
+          "teamId": 1,
+          "score": 30
+        },
+        {
+          "teamId": 2,
+          "score": 50          
+        }
+      ]
+    }
+  ]
+}
